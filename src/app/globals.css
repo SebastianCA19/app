@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --background: #ffffff;
 }
@@ -13,7 +19,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #ededed;
+    --background: #f3f3f3;
   }
 }
 
@@ -21,4 +27,39 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="file"] {
+  margin: auto;
+  padding: 1em;
+  border: 2px dashed #fd9f9f;
+  background-color: #fff;
+  transition: border-color .25s ease-in-out;
+  &::file-selector-button{
+  padding: 0.5em 0.5em;
+  border-width: 0;
+  border-radius: 2em;
+  background-color: hsl(0, 78%, 52%);
+  color: hsl(0, 41%, 90%);
+  transition: all .25s ease-in-out;
+  cursor: pointer;
+  margin-right: 1em;
+  }
+  &:hover {
+  border-color: #f23030;
+    
+  &::file-selector-button{
+    
+    background-color: hsl(0, 77%, 57%);
+    }
+  }
+}
+
+@media (width >= 40rem /* 640px */){
+  input[type="file"] {
+    padding: 1em;
+    &::file-selector-button{
+    padding: 1em 1em;
+    }
+  }
 }

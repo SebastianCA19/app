@@ -9,9 +9,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        playfair: ["var(--font-playfair)", "serif"],
-        raleway: ["var(--font-raleway)", "sans-serif"],
-        source: ["var(--font-source-sans)", "sans-serif"],
+        playfair: ["var(--font-playfair)"],
+        raleway: ["var(--font-raleway)"],
+        source: ["var(--font-source-sans)"], // Note the hyphen for multi-word names
       }
     },
   },
