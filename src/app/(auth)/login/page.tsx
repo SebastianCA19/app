@@ -66,7 +66,7 @@ export default function Home(){
                 </div>
                 
                 {/* Right Side - Image Area */}
-                <div className="w-full lg:w-3/5 h-64 lg:h-auto min-h-[185px] lg:min-h-[600px]">
+                <div className="hidden lg:block w-full lg:w-3/5 h-64 lg:h-auto min-h-[185px] lg:min-h-[600px]">
                 <div className="w-full h-full flex items-center justify-center relative">
                     <img src="/placeholder.webp" alt="Imagen del login" className="w-full h-full object-cover"/>
                 </div>
