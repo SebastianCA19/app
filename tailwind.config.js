@@ -11,7 +11,10 @@ module.exports = {
       fontFamily: {
         playfair: ["var(--font-playfair)"],
         raleway: ["var(--font-raleway)"],
-        source: ["var(--font-source-sans)"], // Note the hyphen for multi-word names
+        source: ["var(--font-source-sans)"],
+        roboto: ["var(--font-roboto)"],
+        sansationBold: ["var(--font-sansation-bold)"],
+        sansationLight: ["var(--font-sansation-light)"] 
       }
     },
   },

@@ -7,7 +7,7 @@ export default function Home(){
     const [password, setPassword] = useState('');
     
     const handleLogin = () => {
-      console.log('Login clicked:', { username, password });
+      window.location.href = "/dashboard"
     };
 
     return (

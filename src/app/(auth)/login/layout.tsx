@@ -8,7 +8,6 @@ const playfair = localFont({
   weight: "400",
 });
 
-
 const raleway = localFont({
   src: "../../../../public/fonts/Raleway-Thin.woff2",
   variable: "--font-raleway",
@@ -37,6 +36,7 @@ export default function RootLayout({
     <html lang="es">
         <head>
             <link rel="icon" href="/favicon.ico"/>
+            <title>Login</title>
         </head>
         <body className={`${playfair.variable} ${raleway.variable} ${sourceSans.variable} min-h-screen flex flex-col bg-gray-50`}>
             {children}
