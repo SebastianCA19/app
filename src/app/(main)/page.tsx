@@ -93,20 +93,20 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm text-neutral-800 mb-1">Nombre Completo</label>
-                  <input type="text" id="name" name="name" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-400" placeholder="Tu nombre completo" />
+                  <input type="text" id="name" name="name" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-400" placeholder="Juan Perez" />
                 </div>
                 <div>
                   <label htmlFor="last_name" className="block text-sm text-neutral-800 mb-1">Apellidos</label>
-                  <input type="text" id="last_name" name="last_name" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-400" placeholder="Tu nombre completo" />
+                  <input type="text" id="last_name" name="last_name" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-400" placeholder="García López" />
                 </div>
               </div>
               <div className="mt-6">
                 <label htmlFor="email" className="block text-sm text-neutral-800 mb-1">Correo Electrónico</label>
-                <input type="email" id="email" name="email" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-400" placeholder="Tu correo electrónico" />
+                <input type="email" id="email" name="email" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-400" placeholder="ejemplo@gmail.com" />
               </div>
               <div className="mt-6">
                 <label htmlFor="phone" className="block text-sm text-neutral-800 mb-1">Número de Teléfono</label>
-                <input type="tel" id="phone" name="phone" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-400" placeholder="Tu número de teléfono" />
+                <input type="tel" id="phone" name="phone" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-400" placeholder="301124578" />
               </div>
               <div className="mt-6">
                 <label htmlFor="municipality" className="block text-sm text-neutral-800 mb-1">Municipio</label>

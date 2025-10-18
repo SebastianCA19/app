@@ -63,14 +63,3 @@ input[type="file"] {
     }
   }
 }
-
-.styled-scrollbars {
-    /* Firefox */
-    scrollbar-color: transparent transparent; /* thumb, track */
-    scrollbar-width: thin;
-}
-
-/* Chrome, Edge, Safari */
-.styled-scrollbars::-webkit-scrollbar {
-    width: 1px;
-}

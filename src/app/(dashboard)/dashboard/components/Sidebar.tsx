@@ -57,7 +57,8 @@ const Sidebar: React.FC = () => {
     left-0
     flex flex-col justify-between
     w-64
-    h-screen
+    md:h-screen
+    h-full
     bg-white shadow-xl rounded-r-3xl overflow-hidden
     z-40
     transition-transform duration-300 ease-in-out

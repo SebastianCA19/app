@@ -1,7 +1,7 @@
 import "../../globals.css";
 import type { Viewport } from "next";
 import localFont from "next/font/local";
-import Sidebar from "./Sidebar";
+import Sidebar from "./components/Sidebar";
 
 const roboto = localFont({
   src: "../../../../public/fonts/Roboto-Regular.woff2",
